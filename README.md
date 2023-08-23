@@ -5,7 +5,7 @@
 
 ## caso não tenha as bibliotecas, instale-as:
 ```bash
-pip install os
+pip install OS
 ```
 ```bash
 pip install time
