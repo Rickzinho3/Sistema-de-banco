@@ -4,7 +4,7 @@
 
 
 ## caso não tenha as bibliotecas, instale-as:
-`pip install os`
-`pip install time`
+```pip install os```
+```pip install time```
 
 Rickzinho (c) 2023
