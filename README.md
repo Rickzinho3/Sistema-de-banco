@@ -11,4 +11,4 @@ pip install os
 pip install time
 ```
 
-Rickzinho (c) 2023
+                   **Rickzinho (c) 2023**
