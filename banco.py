@@ -29,10 +29,13 @@ def Depositar():
 		Dinheiro_disponivel[0] -= dep
 	
 def Retirar():
+	print(f'Dinheiro disponível para retirar: R${Dinheiro_guardado[0]:.2f}')
 	ret = float(input('Quanto deseja retiirar? R$'))
 	
 	if ret > sum(Dinheiro_guardado):
 		print(colors.r + 'Dinheiro insuficiente' + colors.e)
+	elif ret <= 0:
+		print(colors.r + '\nImpossivel retirar 0 reais ou menos' + colors.e)
 	else:
 		Dinheiro_disponivel[0] +=ret
 		Dinheiro_guardado[0] -= ret
@@ -84,3 +87,4 @@ while True:
 			exit()
 	else:
 		print(colors.r + 'Opção inválida' + colors.e)
+	
