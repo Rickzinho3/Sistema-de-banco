@@ -17,4 +17,4 @@ pip install time
 ## **Atualizações**
 Agora o código conta com uma nova função:
 - Histórico de transações
-#### Esta função irá guardar todos os dados das suas transações, sejam elas: resgate, depósito ou retirada.
+#### Esta função irá guardar todos os dados das suas transações, sejam elas: resgate, depósito ou retirada, e será exibida ao escolher a opção [6] no menu.
