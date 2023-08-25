@@ -24,7 +24,7 @@ Novidades do código
 
 Esta função irá guardar todos os dados das suas transações, sejam elas: **resgate, depósito ou retirada**; e serão exibidas ao escolher a opção `[ 6 ]` no menu.
 
-> função `root`
+> Nova função `root`
 
 A função root será executada juntamente ao script, sendo utilizado o bloco a seguir:
 ```Python
