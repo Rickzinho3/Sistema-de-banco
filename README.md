@@ -1,8 +1,12 @@
-# Sistema de banco com Python
+<div align="center">
+    <h1>Sistema de banco em Python</h1>
+</div>
 
 ### O uso dos arquivos deste projeto é limitado apenas a fins de estudos, qualquer outra ação está estrictamente proibida.
 
-**`Rickzinho (c) 2023`**
+<div align="center">
+    <h3>Rickzinho (c) 2023</h3>
+</div>
 <hr/>
 
 ## caso não tenha as bibliotecas, instale-as:
