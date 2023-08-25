@@ -15,10 +15,26 @@ pip install time
 
 
 ## **Atualizações**
-Agora o código conta com uma nova função:
+Novidades do código 
 - Histórico de transações
+- nova função principa `root`
+- correção de erros
+
+> Histórico de transações
 
 Esta função irá guardar todos os dados das suas transações, sejam elas: **resgate, depósito ou retirada**; e serão exibidas ao escolher a opção `[ 6 ]` no menu.
+
+> função `root`
+
+A função root será executada juntamente ao script, sendo utilizado o bloco a seguir:
+```Python
+def root():
+    # código da função
+
+if __name__ == "__main__":
+    root()
+```
+> **Nota:** Lembre-se de adicionar o trecho `if __name__ == "__main__":` na última linha do seu código.
 
 ## **Informações**
 Futuramente será usada uma nova biblioteca no código, na qual será a biblioteca **TQDM**.
