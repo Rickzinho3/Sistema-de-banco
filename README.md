@@ -18,7 +18,7 @@ pip install time
 Agora o código conta com uma nova função:
 - Histórico de transações
 
-Esta função irá guardar todos os dados das suas transações, sejam elas: **resgate, depósito ou retirada**; e serão exibidas ao escolher a opção [6] no menu.
+Esta função irá guardar todos os dados das suas transações, sejam elas: **resgate, depósito ou retirada**; e serão exibidas ao escolher a opção `[ 6 ]` no menu.
 
 ## **Informações**
 Futuramente será usada uma nova biblioteca no código, na qual será a biblioteca **TQDM**.
