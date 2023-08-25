@@ -9,7 +9,7 @@
 </div>
 <hr/>
 
-## caso não tenha as bibliotecas, instale-as:
+## Caso não tenha as bibliotecas, instale-as:
 ```bash
 pip install os
 ```
