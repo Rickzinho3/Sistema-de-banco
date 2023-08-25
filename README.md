@@ -2,7 +2,7 @@
 
 ### O uso dos arquivos deste projeto é limitado apenas a fins de estudos, qualquer outra ação está estrictamente proibida.
 
-**Rickzinho (c) 2023**
+**`Rickzinho (c) 2023`**
 
 
 ## caso não tenha as bibliotecas, instale-as:
