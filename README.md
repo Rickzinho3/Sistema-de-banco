@@ -22,7 +22,7 @@ Esta função irá guardar todos os dados das suas transações, sejam elas: **r
 
 ## **Informações**
 Futuramente será usada uma nova biblioteca no código, na qual será a biblioteca **TQDM**.
-- *Nota*: A Biblioteca não vem pré-instalada por padrão no Python, por isso, instale-a usando o código a seguir:
+> **Nota**: A Biblioteca não vem pré-instalada por padrão no Python, por isso, instale-a usando o código a seguir:
 
 ```bash
 pip install tqdm
