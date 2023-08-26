@@ -53,3 +53,6 @@ após isso, importe a biblioteca
 from tqdm import tqdm
 ```
 
+## Acessibilidade
+
+<h3>Read in<a href=""> English</a></h3>
