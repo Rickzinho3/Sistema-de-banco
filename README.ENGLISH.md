@@ -53,3 +53,7 @@ after that, import the library
 from tqdm import tqdm
 ```
 
+## Accessibility 
+
+<h1>Leia em<a href="https://github.com/Rickzinho3/Sistema-de-banco/tree/main"> Português</a></h1>
+
