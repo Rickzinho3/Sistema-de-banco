@@ -55,5 +55,5 @@ from tqdm import tqdm
 
 ## Accessibility 
 
-<h4>Leia em<a href="https://github.com/Rickzinho3/Sistema-de-banco/tree/main"> Português</a></h4>
+<h3>Leia em<a href="https://github.com/Rickzinho3/Sistema-de-banco/tree/main"> Português</a></h3>
 
