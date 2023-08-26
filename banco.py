@@ -116,6 +116,6 @@ def Root():
 		else:
 			print(colors.r + '\nOpção inválida' + colors.e)
 
+#faz com que a função Root seja executada juntamente ao script
 if __name__ == "__main__":
 	Root()
-	
