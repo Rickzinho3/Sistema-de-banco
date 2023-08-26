@@ -21,7 +21,7 @@ pip install time
 ## **Atualizações**
 Novidades do código 
 - Histórico de transações
-- nova função principa `root`
+- nova função principal `root`
 - correção de erros
 
 > Histórico de transações
