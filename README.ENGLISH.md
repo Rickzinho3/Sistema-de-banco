@@ -30,7 +30,7 @@ This function will save all your transaction data, whether they are: **redemptio
 
 > new function `root`
 
-The root function will be executed together with the script, using the following blockr:
+The root function will be executed together with the script, using the following block:
 ```Python
 def root():
     # function code
