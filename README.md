@@ -55,4 +55,4 @@ from tqdm import tqdm
 
 ## Acessibilidade
 
-<h3>Read in<a href="https://github.com/Rickzinho3/Sistema-de-banco/blob/main/README.ENGLISH.md"> English</a></h3>
+<h3>Read in<a href="https://github.com/Rickzinho3/Sistema-de-banco/blob/main/README.english.md"> English</a></h3>
