@@ -30,7 +30,7 @@ Esta função irá guardar todos os dados das suas transações, sejam elas: **r
 
 > Nova função `root`
 
-A função root será executada juntamente ao script, sendo utilizado o bloco a seguir:
+A função root será executada junto ao script, sendo utilizado o bloco a seguir:
 ```Python
 def root():
     # código da função
