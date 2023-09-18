@@ -22,6 +22,8 @@ pip install time
 code news 
 - transaction history
 - new main function `root`
+- new interface
+- store system
 - error correction
 
 > transaction history
