@@ -1,6 +1,7 @@
-#sistema bancário
+#SISTEMA BANCÁRIO
 
 #bibliotecas
+from art import *
 import os
 import time
 
@@ -59,8 +60,64 @@ def Resgatar():
 	Dinheiro_disponivel[0] += res
 	Transacoes.append(('Resgate', res))
 	
-#variáveis
-line = '—'*18
+#loja
+def Loja():
+	print('—'*30)
+	print(colors.y + f'{tit_loja}' + colors.e)
+	
+	while True:
+		print(colors.g + f'\nSaldo atual: R$ {Dinheiro_disponivel[0]:.2f}' + colors.e)
+		
+		#obs: valores não reais (óbvio kkkkkk)
+		print('\nMenu de itens')
+		print('\n[1] Café - R$ 4.0'
+		      '\n[2] Arroz (Kg) - R$ 5.0'
+		      '\n[3] Feijão (Kg) - R$ 5.0'
+		      '\n[4] Biscoito - R$ 4.0'
+		      '\n[5] Coca Cola - R$ 3.0'
+		      '\n[6] Voltar')
+		comp = input('\n>>> ')
+		
+		if comp == '1':
+			if Dinheiro_disponivel[0] >= 4.0:
+				Dinheiro_disponivel[0] -= 4.0
+				print('\nComprado! \n')
+			else:
+				print('Falta grana')
+		
+		elif comp == '2':
+			if Dinheiro_disponivel[0] >= 5.0:
+				Dinheiro_disponivel[0] -= 5.0
+				print('\nComprado! \n')
+			else:
+				print('Falta grana')
+		
+		elif comp == '3':
+			if Dinheiro_disponivel[0] >= 5.0:
+				Dinheiro_disponivel[0] -= 5.0
+				print('\nComprado! \n')
+			else:
+				print('Falta grana')	
+		
+		elif comp == '4':
+			if Dinheiro_disponivel[0] >= 4.0:
+				Dinheiro_disponivel[0] -= 4.0
+				print('\nComprado! \n')
+			else:
+				print('Falta grana')
+			
+		elif comp == '5':
+			if Dinheiro_disponivel[0] >= 3.0:
+				Dinheiro_disponivel[0] -= 3.0
+				print('\nComprado! \n')
+			else:
+				print('Falta grana')	
+		
+		elif comp == '6':
+			return 
+		
+		else:
+			print('Opção inválida')
 
 #armazenar valores em listas
 Dinheiro_guardado = [0.0]
@@ -68,16 +125,18 @@ Dinheiro_disponivel = [0.0]
 Transacoes = []
 
 #título personalizado
-print('—'*48)
-print(colors.y + 'SEJA BEM-VINDO(a) – DEPÓSITO E SAQUE DISPONÍVEIS' + colors.e)
-print('—'*48)
+titulo = text2art("BANCO")
+tit_loja = text2art("LOJA")
+
+print('—'*37)
+print(colors.y + f'{titulo}' + colors.e)
 
 #sistema principal
 def Root():
 	while True:
 		print(colors.g + f'\nSaldo atual: R$ {Dinheiro_disponivel[0]:.2f}' + colors.e)
 		print('\nMenu principal \n')
-		print('[1] Depositar \n[2] Saque \n[3] Ver meu saldo \n[4] Sair \n\n[5] ajuda \n[6] Histórico')
+		print('[1] Depositar \n[2] Saque \n[3] Ver meu saldo \n[4] Sair \n\n[5] ajuda                 [6] Histórico                 [7] Loja')
 		opc = input('\n>>> ')
 		
 		#estrutura condicional de ações
@@ -93,13 +152,15 @@ def Root():
 		elif opc == '4':
 			print('\nFinalizando...')
 			time.sleep(3)
+			print('Limpando...')
 			LimparTerm()
+			time.sleep(1)
 			exit()
 		
-		#sistema para resgatar dinheiro
+		#sistema de resgate
 		elif opc == '5':
-			print('\n [1] resgatar dinheiro \n [2] voltar \n')
-			opc2 = input('>>> ')
+			print('\n [I] resgatar dinheiro \n [II] voltar \n')
+			opc2 = input('>>>] ')
 			
 			if opc2 == '1':
 				Resgatar()
@@ -113,9 +174,13 @@ def Root():
 			 for i, transacao in enumerate(Transacoes, start=1):
 			           tipo, valor = transacao
 			           print(colors.c + f'{i}. Tipo: {tipo}, Valor: R${valor:.2f}' + colors.e)
+			          
+		elif opc == '7':
+			 Loja()
+					
 		else:
 			print(colors.r + '\nOpção inválida' + colors.e)
 
-#faz com que a função Root seja executada junto ao script
 if __name__ == "__main__":
 	Root()
+		
