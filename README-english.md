@@ -16,6 +16,9 @@ pip install os
 ```bash
 pip install time
 ```
+```bash
+pip install art 
+```
 
 
 ## **Updates**
