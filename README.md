@@ -47,7 +47,7 @@ if __name__ == "__main__":
 
 ## **Informações**
 Futuramente será usada uma nova biblioteca no código, na qual será a biblioteca **TQDM**.
-> **Nota**: A Biblioteca não vem pré-instalada por padrão no Python, por isso, instale-a usando o código a seguir:
+> **Nota**: A Biblioteca não vem instalada por padrão no Python, por isso, instale-a usando o código a seguir:
 
 ```bash
 pip install tqdm
