@@ -31,7 +31,7 @@ Novidades do código
 
 > Histórico de transações
 
-Esta função irá guardar todos os dados das suas transações, sejam elas: **resgate, depósito ou retirada**; e serão exibidas ao escolher a opção `[ 6 ]` no menu.
+Esta função irá guardar todos os dados das suas transações, sejam elas: **resgate, depósito ou retirada**; e serão exibidas ao escolher a opção `[6]` no menu.
 
 > Nova função `root`
 
